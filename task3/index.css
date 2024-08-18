@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.slider-con {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    height: 100%;
+    object-fit: cover;
+    scroll-snap-align: start;
+}
+
+.slider-nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    width: 100%;
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
