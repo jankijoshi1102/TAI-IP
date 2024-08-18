@@ -110,7 +110,7 @@
     height: 30rem;
 }
 .circle:nth-child(2){
-    background-image: url(image/download.jpg);
+    background-image: url(image/me.avif);
     width: 25rem;
     height: 25rem;
     
@@ -255,7 +255,7 @@
     }
 }
 footer {
-    
+    background-color: darkcyan;
     color: aqua;
     text-align: center;
     padding: 1rem;
@@ -295,7 +295,7 @@ footer {
     height: 30rem;
 }
 .circle1:nth-child(2){
-    background-image: url(image/pro.png);
+    background-image: url(image/project.avif);
     width: 25rem;
     height: 25rem;
     
@@ -322,7 +322,7 @@ footer {
     height: 30rem;
 }
 .circle2:nth-child(2){
-    background-image: url(image/_con.webp);
+    background-image: url(image/contact.avif);
     width: 25rem;
     height: 25rem;
     
@@ -350,7 +350,7 @@ footer {
     height: 30rem;
 }
 .circle3:nth-child(2){
-    background-image: url(image/image1.png);
+    background-image: url(image/work.avif);
     width: 25rem;
     height: 25rem;
     
@@ -377,7 +377,7 @@ footer {
     height: 30rem;
 }
 .circle4:nth-child(2){
-    background-image: url(image/image.png);
+    background-image: url(image/about.jpg);
     width: 25rem;
     height: 25rem;
     
